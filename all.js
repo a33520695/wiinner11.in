@@ -31,7 +31,7 @@ function submitWithdrawal() {
     return;
   }
 
-  submitButton.disabled = true;
+  submitButton.disabled = false;
   submitButton.innerText = "Processing...";
 
   const formData = new FormData();
